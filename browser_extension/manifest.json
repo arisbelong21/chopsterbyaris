@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Kirim ke Chopster",
+  "version": "1.2.0",
+  "description": "Kirim tautan video dari tab saat ini hanya ke Chopster by Aris v8.5.5.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Kirim ke Chopster",
+    "default_popup": "popup.html"
+  }
+}
